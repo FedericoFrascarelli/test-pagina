@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FedericoFrascarelli</title>
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+</head>
+<body>
+    <header class="hero">
+      <nav class="nav container">
+        <div class="nav_logo">
+            <h2 class="nav_title">Federico Frascarelli</h2>
+        </div>
+
+       <ul class="nav__link nav_link--menu">
+        <li class="nav__items">
+            <a href="#" class="nav__links">About Me</a>
+        </li>
+        <li class="nav__items">
+            <a href="#" class="nav__links">Skills</a>
+        </li>
+        <li class="nav__items">
+            <a href="#" class="nav__links">Contact</a>
+        </li>
+
+        <img src="./Images/label.svg" class="nav_close">
+       </ul>    
+      </nav>
+
+      <section class="hero__container container">
+          <h1 class="hero__title">Federico Frascarelli</h1>
+          <p class="hero__paragraph">Front-End Developer</p>
+          <a href="#" class="cta">Conocer Mas</a>
+      </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Skills</h2>
+            <p class="about__paragraph">In this section you can see the languagues i can handles</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./Images/html5.svg" class="about.icon">
+                    <h3 class="about__title">HTML5</h3>
+                </article>
+                <article class="about__icons">
+                    <img src="./Images/css.svg" class="about.icon">
+                    <h3 class="about__title">CSS</h3>
+                </article>
+                <article class="about__icons">
+                    <img src="./Images/Javascript.svg" class="about.icon">
+                    <h3 class="about__title">Javascript</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimony">
+           <div class="testimony__container container">
+            <img src="./Images/leftarrow.svg" class="testimony__arrow" id="before">
+
+
+            <section class="testimony__body testimony__body--show" data-id="1">
+                <div class="testimony__texts">
+                    <h2 class="subtitle">Mi name is Federico Frascarelli, <span 
+                        class="testimony__course">software development student</span></h2> 
+                    <p class="testimony__review">great passionate about web development related to the creation of web pages, passionate about design, with the use of htlm5, css and javascript</p>
+                </div>
+
+              <figure class="testimony__picture">
+                <img src="./Images/WhatsApp Image 2022-05-10 at 6.16.16 PM.jpeg" class="testimony__img">
+              </figure>  
+            </section>
+
+
+            <section class="testimony__body" data-id="2">
+                <div class="testimony__texts">
+                    <h2 class="subtitle">My name is Federico Frascarelli<span class="testimony__course">student in database management system</span></h2> 
+                    <p class="testimony__review ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis commodi at a. Quasi fugit impedit natus quaerat laborum reiciendis ut repellendus laboriosam corrupti consectetur consequuntur, debitis doloribus voluptatum odio accusantium!</p>
+                </div>
+
+              <figure class="testimony__picture">
+                <img src="./Images/Database.jfif" class="testimony__img">
+              </figure>  
+            </section>
+
+
+        <section class="testimony__body" data-id="3">
+            <div class="testimony__texts">
+                <h2 class="subtitle">Mi name is Federico Frascarelli, <span 
+                    class="testimony__course">software development student</span></h2> 
+                <p class="testimony__review">great passionate about web development related to the creation of web pages, passionate about design, with the use of htlm5, css and javascript</p>
+            </div>
+
+          <figure class="testimony__picture">
+            <img src="./Images/WhatsApp Image 2022-05-10 at 6.16.16 PM.jpeg" class="testimony__img">
+          </figure>  
+        </section>
+
+        <img src="./Images/arrow.svg" class="testimony__arrow" id="next">
+        </div>
+        </section>
+    </main>
+
+    <script src="./JS/slider.js"></script>
+
+</body>
+
+</html>
